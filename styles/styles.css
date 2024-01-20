@@ -1,0 +1,961 @@
+body {
+  margin: 0;
+  background-color: #252B42;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  align-items: center;
+}
+.nav-bar h1 {
+  color: white;
+  margin-left: 100px;
+}
+.nav-bar .a-links {
+  display: flex;
+}
+.nav-bar .a-links a {
+  margin-left: 0px;
+  margin-right: 10px;
+  color: white;
+  text-decoration: none;
+}
+.nav-bar .register-alinks a {
+  text-decoration: none;
+  color: white;
+}
+
+.join-us {
+  margin-right: 200px;
+  margin-left: 30px;
+  border: solid 20px rgb(0, 99, 192);
+  background-color: rgb(0, 99, 192);
+  border-radius: 10%;
+}
+
+.body-container {
+  text-align: center;
+  padding-top: 150px;
+  color: white;
+}
+.body-container h4 {
+  color: rgb(0, 99, 192);
+}
+.body-container .a-links a {
+  display: flex;
+  margin-left: 20px;
+  border: solid 2px rgb(0, 99, 192);
+  background-color: rgb(0, 99, 192);
+}
+
+.alinks {
+  display: flex;
+  justify-content: center;
+}
+
+.first-a {
+  text-decoration: none;
+  margin-right: 30px;
+  margin-left: 30px;
+  border: solid 20px rgb(0, 99, 192);
+  background-color: rgb(0, 99, 192);
+  border-radius: 10%;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+
+.second-a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  margin-right: 100px;
+  margin-left: 0px;
+  border: solid 2px rgb(0, 99, 192);
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 10%;
+}
+
+.navigatoncontanier {
+  background-color: #ffffff;
+  width: 250px;
+  height: 250px;
+  margin-top: 5px;
+  border-radius: 12px;
+  padding: 50px;
+  margin-left: 35px;
+  transition: 800ms;
+  cursor: pointer;
+}
+
+.navigationcontainerv2 {
+  background-color: rgb(0, 99, 192);
+  width: 250px;
+  height: 250px;
+  margin-top: 5px;
+  border-radius: 12px;
+  transition: 800ms;
+  cursor: pointer;
+  padding: 50px;
+  margin-left: 35px;
+}
+
+.navigationcontainerv2:hover {
+  transform: scale(1.2);
+  background-color: #23a5ef;
+  color: white;
+}
+
+.navigatoncontanier:hover {
+  transform: scale(1.2);
+  background-color: #23a5ef;
+  color: white;
+}
+
+.mainnavcon {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 150px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mainnavcon {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.straigthface {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.342);
+  color: white;
+  border-radius: 13px;
+  margin-top: 12px;
+  margin-left: 5px;
+}
+
+.greeneyes {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 255, 162, 0.342);
+  color: white;
+  border-radius: 13px;
+  margin-top: 12px;
+  margin-left: 5px;
+}
+
+.savepng {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 123, 255, 0.342);
+  color: white;
+  border-radius: 13px;
+  margin-top: 12px;
+  margin-left: 5px;
+}
+
+.containertitlenabove {
+  margin-left: 5px;
+  font-family: "Kanit", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  transition: 800ms;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.mainnavcon {
+  margin-top: 22px;
+}
+
+.lineofcontainerabove {
+  width: 60px;
+  background-color: #e64040;
+  height: 3px;
+  transition: 800ms;
+  margin-left: 5px;
+  margin-top: -5px;
+}
+
+.lineofcontainerabove:hover {
+  width: 60px;
+  background-color: #4069e6;
+  height: 3px;
+}
+
+.containerdescriptionabove {
+  font-size: 12px;
+  font-family: "Kanit", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  padding-top: 5px;
+}
+
+.page-2 {
+  background-color: #fff;
+  width: 100%;
+}
+
+.page2 {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.redline-container {
+  width: 60px;
+  background-color: #e64040;
+  height: 3px;
+}
+
+.img img {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.text-container p {
+  color: grey;
+}
+
+.text-container a {
+  text-decoration: none;
+  color: #23a5ef;
+}
+
+.page-3 {
+  background-color: #fff;
+  width: 100%;
+  margin-top: 300px;
+  margin-left: 300px;
+}
+
+.text-container2 h4 {
+  color: #23a5ef;
+}
+
+.textcont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textcontainer-abovecards {
+  margin-top: 200px;
+  margin-right: 450px;
+}
+.textcontainer-abovecards h4 {
+  color: #23a5ef;
+}
+
+.cardcontainer {
+  margin-top: 189px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .cardcontainer .listofcard .listbeforecard .containermain {
+    display: flex;
+    flex-direction: column;
+  }
+  .containermain {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.Cardcontainerlink {
+  display: flex;
+  justify-content: center;
+  margin-left: -240px;
+  margin-top: 15px;
+  font-size: 16px;
+  color: #23a6f0;
+  font-family: "Kanit", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-family: "Noto Serif", serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.CardcontainerTitle {
+  display: flex;
+  justify-content: center;
+  color: black;
+  margin-left: 110px;
+  margin-top: -10px;
+  font-size: 32px;
+  font-family: "Kanit", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-family: "Noto Serif", serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.Cardcontainerdescription {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  margin-left: -20px;
+  margin-top: -20px;
+  font-family: "Kanit", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-family: "Noto Serif", serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.Cardcontainerdescriptionbellow {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  margin-left: 100px;
+  margin-top: -10px;
+  font-family: "Kanit", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-family: "Noto Serif", serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.containermain {
+  display: flex;
+  justify-content: center;
+}
+
+.cont1 {
+  width: 250px;
+  height: 700px;
+  margin-top: 35px;
+  margin-left: 150px;
+}
+
+.Imagecont1 {
+  background-image: url(./../images/product-cover-66.png);
+  width: 100%;
+  height: 350px;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-size: cover;
+}
+
+.Imagecont2 {
+  background-image: url(./../images/product-cover-65.png);
+  width: 100%;
+  height: 350px;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-size: cover;
+}
+
+.Imageconte {
+  background-image: url(./../images/product-cover-63.png);
+  width: 100%;
+  height: 350px;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-size: cover;
+}
+
+.Imagecont {
+  background-image: url(./../images/product-cover-64.png);
+  width: 100%;
+  height: 350px;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-size: cover;
+}
+
+.cardcontainersalebutton {
+  background-color: #e64040;
+  color: white;
+  border: transparent;
+  width: 75px;
+  height: 25px;
+  border-radius: 5px;
+  transition: 1s;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.cardcontainersalebutton:hover {
+  background-color: #e64059;
+  transform: scale(1.2);
+}
+
+.randomcontname {
+  display: flex;
+  justify-content: center;
+  transform: scale(1.7);
+  margin-left: 100px;
+}
+
+.heartfillbutton {
+  color: black;
+  background-color: #ffffff;
+  width: 15px;
+  height: 18px;
+  margin-top: 200px;
+  margin-left: -50px;
+  border-radius: 12px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.heartfillbutton:hover {
+  background-color: orange;
+  transform: scale(1.3);
+}
+
+.shopfillbutton {
+  color: black;
+  background-color: #ffffff;
+  width: 15px;
+  height: 18px;
+  margin-top: 200px;
+  margin-left: -50px;
+  border-radius: 12px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.shopfillbutton:hover {
+  background-color: lightblue;
+  transform: scale(1.3);
+  color: rgba(101, 0, 0, 0.97);
+}
+
+.linkfromcardcontfromcont {
+  color: #23a6f0;
+  margin-left: 20px;
+  transition: 800ms;
+  cursor: pointer;
+  font-family: "Kanit", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-family: "Noto Serif", serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.linkfromcardcontfromcont:hover {
+  color: orange;
+  transform: scale(1.1);
+}
+
+.starreviewfromcardcontainer {
+  color: white;
+  background-color: #252b42;
+  border: transparent;
+  border-radius: 12px;
+  transform: scale(1.2);
+  margin-left: 10px;
+  transition: 800ms;
+  cursor: pointer;
+  font-family: "Kanit", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-family: "Noto Serif", serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.starreviewfromcardcontainer:hover {
+  background-color: orange;
+  color: #252b42;
+}
+
+.stars {
+  margin-top: -40px;
+  display: flex;
+  justify-content: right;
+  margin-right: 10px;
+  transition: 800ms;
+  cursor: pointer;
+}
+
+.stars:hover {
+  transform: scale(1.1);
+}
+
+.maintitlefromcardcontfromcont {
+  color: #252b42;
+  margin-left: 20px;
+  font-size: 22px;
+  transition: 800ms;
+  cursor: pointer;
+  font-family: "Kanit", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-family: "Noto Serif", serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.maintitlefromcardcontfromcont:hover {
+  color: #23a5ef;
+  transform: scale(1.1);
+}
+
+.graydescriptionfromcard {
+  color: gray;
+  margin-left: 20px;
+  font-family: "Kanit", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-family: "Noto Serif", serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.graydescriptionbellowfromcard {
+  color: gray;
+  margin-left: 20px;
+  margin-top: -10px;
+  font-family: "Kanit", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-family: "Noto Serif", serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.uploadbutitisdowload {
+  color: gray;
+  margin-left: 20px;
+}
+
+.pfromupload {
+  margin-top: -20px;
+  margin-left: 20px;
+  color: #737373;
+}
+
+.discountprice {
+  color: #40bb15;
+  margin-left: 30px;
+  transform: scale(1.1);
+  transition: 800ms;
+  cursor: pointer;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Kanit", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-family: "Noto Sans Indic Siyaq Numbers", sans-serif;
+  font-family: "Noto Serif", serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.discountprice:hover {
+  color: orange;
+  transform: scale(1.2);
+}
+
+.Oldpriceupload {
+  color: #bdbdbd;
+  margin-top: -33px;
+  margin-left: 70px;
+  transition: 800ms;
+  cursor: pointer;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Kanit", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-family: "Noto Sans Indic Siyaq Numbers", sans-serif;
+  font-family: "Noto Serif", serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.Containercardlearnmore {
+  background-color: transparent;
+  border: 1px solid #23a6f0;
+  color: #23a6f0;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 22px;
+  border-radius: 14px;
+  transition: 800ms;
+  cursor: pointer;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Kanit", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-family: "Noto Sans Indic Siyaq Numbers", sans-serif;
+  font-family: "Noto Serif", serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+luka Lu Ka .Containercardlearnmore:hover {
+  border: #40bb15 solid 1px;
+  color: #40bb15;
+  transform: scale(1.2);
+}
+
+.containermainsecond {
+  display: flex;
+  justify-content: center;
+  margin-top: -735px;
+  margin-left: -90px;
+}
+
+.Imagecontwoman {
+  background-image: url(./BackgroundImage/2ndbackimage.png);
+  width: 100%;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Imagecont3 {
+  background-image: url(./BackgroundImage/3rdone.png);
+  width: 100%;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.containermain3 {
+  display: flex;
+  justify-content: center;
+  margin-top: -735px;
+  margin-left: 500px;
+  margin-right: -179px;
+}
+
+.containermain4 {
+  display: flex;
+  justify-content: right;
+  margin-top: -735px;
+  margin-right: 80px;
+}
+
+.Imagecont4 {
+  background-image: url(./BackgroundImage/4thbackground.png);
+  width: 100%;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.cont4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont {
+  display: flex;
+}
+
+.last-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+.last-container .first-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 250px;
+}
+.last-container .first-container img {
+  width: 150px;
+  border-radius: 50%;
+}
+.last-container .first-container p {
+  width: 200px;
+}
+.last-container .second-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.last-container .second-container img {
+  width: 150px;
+  border-radius: 50%;
+}
+.last-container .second-container p {
+  width: 200px;
+}
+
+.lastpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+.lastpage h4 {
+  color: #23a5ef;
+}
+.lastpage h1 {
+  font-family: sans-serif;
+}
+
+.last-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.last-page h4 {
+  color: #23a5ef;
+}
+.last-page h1 {
+  font-family: sans-serif;
+}
+
+.Searchcontainer {
+  margin-top: 250px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.lastcontt {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.SearchTitle {
+  color: #252b42;
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  margin-top: -10px;
+  transition: 800ms;
+  cursor: pointer;
+  font-family: "Kanit", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-family: "Noto Serif", serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.SearchTitle:hover {
+  color: #40bb15;
+  transform: scale(1.2);
+}
+
+.Searchdescription {
+  color: #7b7b7b;
+  display: flex;
+  justify-content: center;
+  transition: 800ms;
+  cursor: pointer;
+  font-family: "Kanit", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-family: "Noto Serif", serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.Searchdescription:hover {
+  color: gold;
+  transform: scale(1.1);
+}
+
+.Searchdescription2nd {
+  color: #7b7b7b;
+  display: flex;
+  justify-content: center;
+  transition: 800ms;
+  cursor: pointer;
+  font-family: "Kanit", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-family: "Noto Serif", serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.Searchdescription2nd:hover {
+  color: gold;
+}
+
+.email {
+  background-color: #f9f9f9;
+  width: 500px;
+  height: 45px;
+  border: 1px solid #e6e6e6;
+  animation: textchanegr 2s infinite;
+  cursor: pointer;
+  transition: 2s;
+}
+
+.email {
+  transform: scale(1.1);
+  animation: textchanegr 3s infinite;
+}
+
+@keyframes textchanegr {
+  0% {
+    color: #737373;
+  }
+  25% {
+    color: #7b7b7b;
+  }
+  50% {
+    color: #23a6f0;
+  }
+  100% {
+    color: #737373;
+  }
+  75% {
+    color: #7b7b7b;
+  }
+}
+.Searchengine {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.Subscribe {
+  background-color: #23a6f0;
+  color: white;
+  height: 50px;
+  width: 300px;
+  border: transparent;
+  cursor: pointer;
+  transition: 2s;
+}
+
+.Subscribe:hover {
+  background-color: orangered;
+  transform: scale(1.2);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-a-links {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-a-links a {
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.containers1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  background-color: #252B42;
+  width: 100%;
+}
+
+.footer-text-container1 {
+  margin-right: 250px;
+  margin-left: 50px;
+}
+
+.footer-text-container2 {
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.footer-text-container3 {
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.footer-text-container4 {
+  margin-right: 50px;
+  margin-left: 200px;
+}
+
+.last-text p {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=styles.css.map */
